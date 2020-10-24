@@ -20,7 +20,7 @@ function breakOut(array, changeValue, stopValue) {
 }
 
 function findBy(array, findFn) {
-  for (let i = 0; l = array.length;i<l; i++) {
+  for (let i = 0, l = array.length;i<l; i++) {
     if (findFn(array[i])){
       return array[i]
     }
